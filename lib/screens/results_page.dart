@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'home.dart';
+import 'package:bmi_calculator/components/bottom_button.dart';
 
 class ResultsPage extends StatelessWidget {
   const ResultsPage(
@@ -17,7 +17,7 @@ class ResultsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI CALCULATOR'),
+        title: const Text('BMI CALCULATOR'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -25,9 +25,9 @@ class ResultsPage extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: Container(
-              padding: EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(15.0),
               alignment: Alignment.bottomLeft,
-              child: Text(
+              child: const Text(
                 'Your Result',
                 style: TextStyle(
                   fontSize: 50.0,
@@ -46,7 +46,7 @@ class ResultsPage extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     resultText.toUpperCase(),
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Color(0xFF24D876),
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class ResultsPage extends StatelessWidget {
                   ),
                   Text(
                     bmiResult,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 100.0,
                       fontWeight: FontWeight.bold,
                     ),
@@ -62,7 +62,7 @@ class ResultsPage extends StatelessWidget {
                   Text(
                     interpretation,
                     textAlign: TextAlign.center,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 22.0,
                     ),
                   ),
@@ -70,28 +70,15 @@ class ResultsPage extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
-          InkWell(
-            child: Container(
-              child: Center(
-                child: Text(
-                  'RECALCULATE',
-                  style: TextStyle(
-                      fontSize: 38,
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold),
-                ),
-              ),
-              color: Colors.yellow,
-              width: double.infinity,
-              height: 80,
-            ),
-            onTap: () {
+          BottomButton(
+            label: 'RECALCULATE',
+            onInputTap: () {
               Navigator.pop(context);
             },
-          ),
+          )
         ],
       ),
     );
