@@ -60,4 +60,4 @@ Contributions are welcome! To contribute:
 </div>
 ## Demo Video  
 
-[![demo]([https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg](https://github.com/vinit105/BMI-Calculator/blob/c3273b2ce95d79bc171160c02df31dec3a940aaa/screenshot_01.png))](https://github.com/user-attachments/assets/89598c27-7250-4957-b192-6d8c380adf6b)
+[![demo](https://github.com/vinit105/BMI-Calculator/blob/c3273b2ce95d79bc171160c02df31dec3a940aaa/screenshot_01.png)](https://github.com/user-attachments/assets/89598c27-7250-4957-b192-6d8c380adf6b)
