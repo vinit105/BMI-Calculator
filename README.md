@@ -58,5 +58,5 @@ Contributions are welcome! To contribute:
 <img alt="ScreenShot" src="./screenshot_01.png" width="200" />  
 <img alt="ScreenShot" src="./screenshot_02.png" width="200" />
 </div>
-## Demo Video
- [[demo](./demo.webm)]
+## Demo Video  
+https://github.com/user-attachments/assets/89598c27-7250-4957-b192-6d8c380adf6b
