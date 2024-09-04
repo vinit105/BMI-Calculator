@@ -26,7 +26,7 @@ samples, guidance on mobile development, and a full API reference.
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/bmi_calculator_app.git  
+   git clone https://github.com/vinit105/BMI-Calculator.git
 
    cd bmi_calculator_app
 
