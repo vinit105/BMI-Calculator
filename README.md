@@ -54,10 +54,9 @@ Contributions are welcome! To contribute:
 
 ## Screenshots
 
-![Screenshot 1](./screenshot_01.png)  
-
-![Screenshot 2](./screenshot_02.png)
-
-
+<div>
+<img alt="ScreenShot" src="./screenshot_01.png" width="200" />  
+<img alt="ScreenShot" src="./screenshot_02.png" width="200" />
+</div>
 ## Demo Video
  [[demo](./demo.webm)]
